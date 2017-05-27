@@ -1,0 +1,87 @@
+body {
+  /*background-color: #ffcc00;*/
+  font-family: 'Cormorant Garamond', serif;
+  background-image: url("http://wallzoa.com/wp-content/uploads/2013/06/dark-beer-wallpaper.jpg"); 
+  margin: 0;
+  padding: 0;
+}
+  /*overflow: hidden;*/
+}
+p {
+  margin: 0;
+}
+.beer-background {
+  width: 100%;
+  height: 932px;
+  background: rgba(0,0,0,0.4);
+}
+.beer-container {
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+.beer-container--overlay {
+  background-color: rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left:0;
+}
+.beer-results--show {
+  display: flex;
+  background-color: #F2F2F2;
+  width: 65%;
+  margin: 0 auto;
+  padding: 10px 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  max-height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+.beer-inputs {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+.beer-inputs:nth-child(3) {
+  padding-right: 24px;
+}
+.beer-inputs:nth-child(4) {
+  padding-right: 32px;
+}
+.beer-inputs input {
+  outline: none;
+  padding: 4.5px;
+  font-size: .7em;
+}
+.beer-inputs label {
+  padding-right: 5px;
+}
+.beer-form, .beer-image {
+  width: 100%;
+  display: inline-block;
+}
+.beer-form {
+  vertical-align: top;
+  color: #fff;
+  text-align: center;
+}
+.beer-form h1 {
+  margin: 0;
+  font-size: 4.5em;
+  padding-right: 1px;
+}
+.beer-form p {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.beer-modal-close {
+  display: none;
+  font-weight: bold;
+  font-size: 58px;
+  color: black;
+  float:right;
+}
+  
